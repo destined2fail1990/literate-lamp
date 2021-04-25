@@ -11,3 +11,6 @@ Grid storage is essentially a RAID set up over the network, if you abstract the 
 Basic Example:
 
 You have 13 computers. Each computer has 100gb of storage reserved for the cluster. For every 1 drive, there is 1 redundant (can be scaled up or down), so you end up with 600gb of additional redundant storage that would otherwise go unused. If PC's are offline, WoL can wake them up. Typically, the setup consistents of 1 of 4-6 PC's in an enterprise environment used for redundancy I believe.
+
+Raspberry Pi cluster:
+![image](https://user-images.githubusercontent.com/76993548/115988009-40b48700-a57d-11eb-8252-6c17f0a4ae2b.png)
